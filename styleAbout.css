@@ -18,11 +18,13 @@ html {
 }
 body{
   height: 100%;
-   border: 0px;
-  margin: 0px auto;
-  background-image: linear-gradient(to bottom, #053e42, #010109);
-}
 
+}
+.bodybutbetter{
+  background-image: linear-gradient(to bottom, #053e42, #010109);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 
 h1{
   /*Titles*/
@@ -224,6 +226,7 @@ a, a:hover, a:active, a:visited { color: white; }
   .column {
     width: 100%;
     display: block;
+    background-image: linear-gradient(to bottom, #053e42, #010109);
   }
 }
 /* The alert message box */

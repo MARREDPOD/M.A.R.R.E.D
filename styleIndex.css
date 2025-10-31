@@ -19,7 +19,7 @@ html {
 }
 body{
   height: 100%;
-   background-image: linear-gradient(to bottom, #053e42, #010109);
+  
 }
 h1{
   /*Titles*/
@@ -348,4 +348,10 @@ header{
 
 .video-container{
  margin:5%;
+}
+
+.bodybutbetter{
+  background-image: linear-gradient(to bottom, #053e42, #010109);
+        background-repeat: no-repeat;
+        background-size: cover;
 }
